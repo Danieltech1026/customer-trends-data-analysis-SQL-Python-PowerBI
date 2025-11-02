@@ -2,7 +2,7 @@
 
 ## 📘 Project Overview
 This project analyzes **customer shopping behavior** using transactional data from **3,900 purchases** across multiple product categories.  
-The primary goal is to uncover insights into **spending patterns**, **customer segmentation**, **product preferences**, and **subscription behavior** — to support strategic business decisions.
+The primary goal is to uncover insights into **spending patterns**, **customer segmentation**, **product preferences**, and **subscription behavior** to support strategic business decisions.
 
 ---
 
@@ -34,11 +34,11 @@ The primary goal is to uncover insights into **spending patterns**, **customer s
 6. **Data Consistency Check:**  
    - Verified redundancy between `discount_applied` and `promo_code_used`; dropped the latter.  
 7. **Database Integration:**  
-   - Connected Python script to **PostgreSQL** and uploaded the cleaned dataset.
+   - Connected Python script to **MySQL** and uploaded the cleaned dataset.
 
 ---
 
-## 🧮 SQL Business Analysis (PostgreSQL)
+## 🧮 SQL Business Analysis (MySQL)
 
 Structured queries were used to answer business-critical questions:
 
@@ -83,15 +83,8 @@ An interactive **Power BI dashboard** was built to visualize insights:
 | Tool | Purpose |
 |------|----------|
 | **Python (pandas, numpy, matplotlib, seaborn)** | Data cleaning, preprocessing, and EDA |
-| **PostgreSQL / MySQL** | Structured business analysis via SQL |
+| **MySQL** | Structured business analysis via SQL |
 | **Power BI** | Interactive data visualization |
 | **Jupyter Notebook** | Analysis and documentation environment |
 
 ---
-
-## 🚀 How to Reproduce
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/customer-shopping-behavior-analysis.git
-   cd customer-shopping-behavior-analysis
