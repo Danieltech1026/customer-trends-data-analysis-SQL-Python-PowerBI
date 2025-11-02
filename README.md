@@ -64,7 +64,9 @@ An interactive **Power BI dashboard** was built to visualize insights:
 - Purchase behavior by category  
 - Discount vs. non-discount performance  
 - Subscription and loyalty analytics  
-- Product performance and customer retention metrics  
+- Product performance and customer retention metrics
+
+![Dashboard Preview](https://github.com/Danieltech1026/customer-trends-data-analysis-SQL-Python-PowerBI/blob/main/customer%20behavior%20dashboard.png?raw=true)
 
 ---
 
